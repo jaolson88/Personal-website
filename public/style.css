@@ -1,0 +1,223 @@
+
+/* CONTAINER */
+div.container a {
+    color: #FFF;
+    text-decoration: none;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+/* NAVBAR */
+.navbar {
+    text-align: center;
+    background-color: rgb(0,0,0);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width:100%;
+}
+
+.navbar a {
+    font-family: 'PT Serif', serif;
+    color: rgb(255,255,255);
+    font-size: 30px;
+    text-decoration: none;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.black {
+    background: #000000;
+}
+
+.topbottombordersout a:before, .topbottombordersout a:after {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: #FFF;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.topbottombordersout a:before {
+    top: 0px;
+    transform: translateY(10px);
+}
+
+.topbottombordersout a:after {
+    bottom: 0px;
+    transform: translateY(-10px);
+}
+
+.topbottombordersout a:hover:before, .topbottombordersout a:hover:after {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+/* CONTAINER 1 */
+div.container1 {
+    position: relative;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    Column-gap: 20px;
+}
+
+div.container1 img {
+    width: 65px;
+    height: 65px;
+    border: 0px;
+}
+
+div.container1 a:hover {
+    background-color: grey;
+}
+
+/* SOCIAL MEDIA LINKS */
+.socmedia li {
+    position: relative;
+    text-decoration: none;
+    float: right;
+    word-spacing: normal;
+}
+
+.blackbox li {
+    background: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+ }
+
+.whitebox li {
+    background: white;
+    color: black;
+    padding: 50px;
+}
+
+.socmedia a {
+    float: right;
+}
+
+/* CONTAINER2 */
+div.container2 {
+    height: 10em;
+    position: relative;
+}
+
+div.container2 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    text-align: center;
+}
+
+/* PROFILE PICTURE */
+.profile img {
+    position: relative;
+    padding: 50px;
+    float: right;
+}
+
+/* BACKGROUND */
+body {
+    background-color: white;
+    margin:0;
+}
+
+/* ABOUT */
+.about h1 {
+    font-family: 'PT Serif', serif; 
+    font-size: 40px;
+    text-align: center;
+    top: 50%;
+    color: rgb(0,0,0);
+}
+
+.about p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    word-wrap: break-word; width: 600px;
+}
+
+/* CONTAINER3 */
+div.container3 {
+    height: 10em;
+    position: absolute;
+    transform: translate(0, -50%);
+    left: 770px;
+}
+
+div.container3 {
+    margin: 0;
+    top: 50%;
+}
+
+/* SKILLS */
+.skills h1 {
+    font-family: 'PT Serif', serif;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+
+.skills li {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+}
+
+/* .circlesappear li:before, .circlesappear li:after {
+position: relative;
+border: 4px solid white;
+transform: translateX(-50%) translateY(-50%) scale(0.8);
+border-radius: 50%;
+background: transparent;
+content: "";
+opacity: 0; 
+transition: all 0.3s;
+z-index: -1;
+}
+
+.circlesappear li:after {
+border-width: 2px;
+transition: all 0.4s;
+}
+
+.circlesappear li:hover:before {
+opacity: 1;
+transform: translateX(-50%) translateY(-50%) scale(1);
+}
+
+.circlesappear li:hover:after {
+opacity: 1;
+transform: translateX(-50%) translateY(-50%) scale(1.3);
+} */
+
+
+/* PORTFOLIO */
+.portfolio h1 {
+    font-family: 'PT Serif', serif;
+    text-align: left;
+    color: black;
+}
+
+.portfolio p {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* CONTACT */
+.contact h1 {
+    font-family: 'PT Serif', serif;
+    text-align: left;
+    color: black;
+}
+
+.contact p {
+    font-family: 'Raleway', sans-serif;
+}
